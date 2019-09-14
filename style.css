@@ -2,6 +2,7 @@ body {
     background-color: #eee;
 }
 
+
 #title-part {
     color: yellowgreen;
 }
@@ -51,4 +52,5 @@ td {
 
 table {
     border-collapse: collapse;
+    margin: 0 auto;
 }
