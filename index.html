@@ -10,6 +10,7 @@
         body {
             background-color: #eee;
         }
+
         #title-part {
             color: yellowgreen;
         }
@@ -24,10 +25,12 @@
             font-size: 35px;
         }
 
-        h1, h2 {
+        h1,
+        h2 {
             text-align: center;
         }
- /* width vs max width check resizing */
+
+        /* width vs max width check resizing */
         section.container {
             border: 3px double blue;
             padding: 20px;
@@ -37,16 +40,27 @@
             margin: 0 auto 0 auto;
             margin: 0 auto;
             background-color: #fff;
-            box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
         }
-        th, td{
+        .highlighted {
+            background-color: yellow;
+        }
+        th,
+        td {
             border: 1px solid gray;
         }
 
-        table{
-            border-collapse: collapse;
+        th {
+            background-color: #ddd;
         }
 
+        td {
+            padding: 5px 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
     </style>
 </head>
 
@@ -56,33 +70,56 @@
         <h1>JS<span id="title-part">Excel</span></h1>
         <h2 id="title-part">A JS-based SpreadSheet App</h2>
 
-<!--SPREADSHEET TABLE-->
+        <!--SPREADSHEET TABLE-->
         <table>
             <thead>
                 <tr>
-                    <th>Product</th>
-                    <th>Cost</th>
-                    <th>Price</th>
-                    <th>Profit</th>
-                    <th>Units Projected</th>
-                    <th>Total Sales</th>
-                    <th>Total Profit</th>
+                    <th> </th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                    <th>F</th>
+                    <th>G</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                <td>choco raisins</td>
-                <td>20.95</td>
-                <td>35.95</td>
-                <td>15</td>
-                <td>700</td>
-                <td>25165</td>
-                <td>10500</td>
-                
-            </tr>
+                    <td>1</td>
+                    <td>Product</td>
+                    <td>Cost</td>
+                    <td>Price</td>
+                    <td>Profit</td>
+                    <td>Units Projected</td>
+                    <td>Total Sales</td>
+                    <td>Total Profit</td>
+                </tr>
+                <tr class="highlighted">
+                        <td>2</td>
+                    <td>choco raisins</td>
+                    <td>20.95</td>
+                    <td>35.95</td>
+                    <td>15</td>
+                    <td>700</td>
+                    <td>25165</td>
+                    <td>10500</td>
+
+                </tr>
+                <tr>
+                        <td>3</td>    
+                    <td>choco raisins</td>
+                        <td>20.95</td>
+                        <td>35.95</td>
+                        <td>15</td>
+                        <td>700</td>
+                        <td>25165</td>
+                        <td>10500</td>
+    
+                    </tr>
             </tbody>
         </table>
-<!--/SPREADSHEET TABLE-->
+        <!--/SPREADSHEET TABLE-->
 
         <p>L<span class="capital">orem</span> ipsum dolor sit amet consectetur, adipisicing elit. Corporis eos saepe sit
             hic modi provident maxime perferendis eligendi repellendus mollitia possimus at error natus est, veniam,
