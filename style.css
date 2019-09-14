@@ -1,0 +1,54 @@
+body {
+    background-color: #eee;
+}
+
+#title-part {
+    color: yellowgreen;
+}
+
+.capital {
+    font-weight: bolder;
+    font-size: 24px;
+    color: black;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/* width vs max width check resizing */
+section.container {
+    border: 3px double blue;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto 0 auto;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.highlighted {
+    background-color: yellow;
+}
+th,
+td {
+    border: 1px solid gray;
+}
+
+th {
+    background-color: #ddd;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
