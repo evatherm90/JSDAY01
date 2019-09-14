@@ -20,6 +20,10 @@
             color: black;
         }
 
+        h1 {
+            font-size: 35px;
+        }
+
         h1, h2 {
             text-align: center;
         }
@@ -35,6 +39,14 @@
             background-color: #fff;
             box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
         }
+        th, td{
+            border: 1px solid gray;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
     </style>
 </head>
 
@@ -43,6 +55,35 @@
     <section class="container">
         <h1>JS<span id="title-part">Excel</span></h1>
         <h2 id="title-part">A JS-based SpreadSheet App</h2>
+
+<!--SPREADSHEET TABLE-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Cost</th>
+                    <th>Price</th>
+                    <th>Profit</th>
+                    <th>Units Projected</th>
+                    <th>Total Sales</th>
+                    <th>Total Profit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>choco raisins</td>
+                <td>20.95</td>
+                <td>35.95</td>
+                <td>15</td>
+                <td>700</td>
+                <td>25165</td>
+                <td>10500</td>
+                
+            </tr>
+            </tbody>
+        </table>
+<!--/SPREADSHEET TABLE-->
+
         <p>L<span class="capital">orem</span> ipsum dolor sit amet consectetur, adipisicing elit. Corporis eos saepe sit
             hic modi provident maxime perferendis eligendi repellendus mollitia possimus at error natus est, veniam,
             voluptas, tempora iure molestias?</p>
